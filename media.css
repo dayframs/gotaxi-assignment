@@ -1,7 +1,7 @@
 @media (max-width: 600px) 
 {
 .section1 div {
-    height: 100px;
+    max-height: 100px;
 }
 .section2 {
     display: grid;
@@ -35,7 +35,6 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    min-height: 100px;
 }
 .footera {
     padding: 0;
@@ -44,7 +43,6 @@ footer {
 .footeraiii {
     padding: 5px 10px;
     flex-wrap: nowrap;
-    height: 100px;
 }
 .footeraia img {
     width: 160px;
@@ -54,7 +52,6 @@ footer {
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    padding-bottom: 30px;
     width: 100px;}
 
 .footeraib img {
