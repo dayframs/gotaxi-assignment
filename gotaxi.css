@@ -48,7 +48,7 @@ section {
     animation-name: hero;
     animation-duration: 6s;
     animation-iteration-count: infinite;
-    animation-delay: 3s;
+    animation-delay: 1s;
     transition: animation 0.15s;
 }
 @keyframes hero {
@@ -72,22 +72,24 @@ section {
 }
 .section2 {
     background-color:rgba(255, 255, 255, 0.886);
-    min-height: 200px;
-    display: flex;
-    flex-direction: row;
+    /* min-height: 200px; */
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 .section2 .div1a {
-    width: 39%;
-    padding: 20px 0 20px 0px;
+    /* width: 39%; */
+    
 }
 .div1a img {
-    max-width: 380px;
-    float: right;
-    margin: 15px;
+    max-width: 350px;
+    /* max-width: 380px;
+    /* float: right; */
+     margin: 15px;
     margin-top: 30px;
+    padding: 20px 0 20px 20px;
 }
 .section2 .div1b {
-    width: 61%;
+    /* width: 61%; */
     padding: 80px 60px 60px 15px;
 }
 .div1b h1 {
@@ -235,11 +237,10 @@ section {
 .section5 {
     min-height: 400px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     background-image: url(./back-use.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
     padding: 50px 50px 0 50px;
 }
 .section5a {
@@ -458,7 +459,7 @@ section {
     max-width: 191px;
     margin-top: 49px; 
     margin-left: 69px;
-    max-height: 333px;
+    max-height: 333px; */
     /* animation-name: view; */
     /* animation-duration: 6s;
     animation-iteration-count: infinite;
