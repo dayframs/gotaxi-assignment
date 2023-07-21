@@ -30,6 +30,7 @@
 
 footer {
     padding: 5px 10px;
+    flex-wrap: nowrap;
 }
 .footeraia img {
     width: 160px;
