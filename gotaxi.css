@@ -470,44 +470,59 @@ section {
     }
 }
 .section6 {
-    min-height: 200px;
+    min-height: 130px;
     background-image: url(./ilustrasion-scene.png);
     background-repeat: repeat-x;
     background-size: contain;
     position: relative;
     z-index: 3;
 }
+.section6 img {
+    width: 200px;
+}
 .section6a {
     position: absolute;
-    top: 120px;
-    transform: scaleX(40%);
+    overflow: hidden;
+    top: 80px;
+    transform: scaleX(10%);
     /* transform: scaleY(60%); */
-    margin-left: -800px;
+    margin-left: 0px;
     /* left: 600px; */
     /* width: 100%; */
     animation-name: translator;
-    animation-duration: 10s;
-    animation-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-timing-function:linear;
     animation-delay: 0;
     animation-iteration-count: infinite;
-    animation-direction: forward;
+    animation-direction: reverse;
     transition: animation 0.15s;
 }
+
 @keyframes translator {
     0% {
         transform: translateX(0);
     }
-    50% {
-        transform: translateX(800px);
-    }
     100% {
-        transform: translateX(-800px);
+        transform: translateX(1000px);
     }
 }
-/* .section6b {
+.section6b {
     position: absolute;
-    top: 120px;
-} */
+    overflow: hidden;
+    top: 93px;
+    margin-left: -30px;
+    width: 100px;
+    height: 80px;
+    /* left: 600px; */
+    /* width: 100%; */
+    animation-name: translator;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    transition: animation 0.15s;
+}
 footer {
     background-color: rgb(16, 16, 16);
     min-height: 200px;

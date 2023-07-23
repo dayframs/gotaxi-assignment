@@ -26,6 +26,15 @@
     height: 333px;}
 .section6 {
     z-index: 1;
+    height: 40px;
+}
+@keyframes translator {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(380px);
+    }
 }
 footer {
     padding: 5px 10px;
