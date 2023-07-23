@@ -6,7 +6,6 @@
 header {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     height: 60px;
     border: 1px solid grey;
     background-color:rgba(255, 255, 255);
@@ -520,6 +519,7 @@ footer {
     min-height: 80%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    padding-bottom: 80px;
 }
 .footerai {
     display: grid;
@@ -535,25 +535,20 @@ footer {
 .footeraib {
     display: flex;
     justify-content: center;
-    justify-content: space-around;
-    padding-bottom: 180px;
+    align-items: center;
+    justify-content: space-between;
     width: 180px;
-    margin: auto;
+    margin: 1px auto;
 }
 .footeraib img {
-    width: 25px;
+    width: 30px;
     background-color: white;
     padding: 8px;
-    border-radius: 20px;
-    margin-top: 5px;
+    border-radius: 30px;
+    margin-top: 1px;
 }
-/* .footeraii {
-    display: grid;
-    align-items: center;
-} */
-
 .footeraii ul {
-    margin-top: 0;
+    margin-top: 20px;
     color: grey;
     list-style-type: none;
     cursor: pointer;
@@ -561,7 +556,6 @@ footer {
     font-size: 16px;
     line-height: 30px;
     font-family: Alegreya;
-    padding-bottom: 30px;
 }
 .footeraii li:hover {
     color: green;
