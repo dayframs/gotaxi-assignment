@@ -1,9 +1,10 @@
 @media (max-width: 550px) 
 {
-    /* header {
+    header {
     display: flex;
     justify-content: center;
-} */
+    padding-left: 40px;
+}
 header button {
     font-size: 13px;
     margin-right: 14px;
