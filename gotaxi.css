@@ -74,18 +74,21 @@ section {
     /* min-height: 200px; */
     display: grid;
     grid-template-columns: 1fr 3fr;
+    column-gap: 20px;
 }
 .div1a img {
-    max-width: 350px;
+    width: 100%;
     /* max-width: 380px;
     /* float: right; */
-     margin: 15px;
+    /* margin: 30px;
+    /* margin-top: 30px;
+    padding: */ 
     margin-top: 30px;
-    padding: 20px 0 20px 20px;
+    margin-left: 20px;
 }
 .section2 .div1b {
     /* width: 61%; */
-    padding: 80px 60px 60px 15px;
+    padding: 10px 40px 60px 15px;
 }
 .div1b h1 {
     font-family: 'Times New Roman', Times, serif;
