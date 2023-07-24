@@ -54,25 +54,22 @@ grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 5px;
 }
 .footeraia {
-    display: flex;
-    justify-content: center;
+    margin-top: 3px;
 }
 .footeraia img {
-    width: 80%;
+    width: 100%;
     margin-bottom: 0;
 }
 
 .footeraib {
     display: flex;
-    justify-content: center;
     justify-content: space-between;
-    width: 70%;
-    margin-top: 5px;}
+    width: 70%;}
 
 .footeraib img {
-    width: 18px;
-    height: 18px;
-    border-radius: 40px;
+    width: 13%;
+    height: 13%;
+    border-radius: 50%;
 }
 .footeraii {
     align-items: center;

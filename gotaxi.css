@@ -528,13 +528,11 @@ section {
 }
 footer {
     background-color: rgb(16, 16, 16);
-    min-height: 200px;
     padding: 5px 80px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 4fr 1fr;
 }
 .footera {
-    min-height: 80%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding-bottom: 80px;
