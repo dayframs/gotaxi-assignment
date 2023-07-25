@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 header {
     height: 60px;
@@ -36,31 +37,34 @@ section {
     min-height: 100vh;
     background-image: url(./heropic1.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: static;
     animation-name: hero;
     animation-duration: 6s;
     animation-iteration-count: infinite;
-    animation-delay: 1s;
+    animation-delay: 0s;
     transition: animation 0.15s;
 }
 @keyframes hero {
     0%{
         background: url(./heropic3.jpg);
-        background-size: contain;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     33%{
         background: url(./heropic3.jpg);
-        background-size: contain;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     66%{
         background: url(./heropic2.jpg);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     100%{
         background: url(./heropic1.jpg);
-        background-size: contain;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 .section2 {
@@ -480,7 +484,7 @@ section {
 .section6a {
     position: absolute;
     overflow: hidden;
-    top: 80px;
+    top: 50px;
     transform: scaleX(10%);
     /* transform: scaleY(60%); */
     margin-left: 0px;
@@ -506,7 +510,7 @@ section {
 .section6b {
     position: absolute;
     overflow: hidden;
-    top: 93px;
+    top: 65px;
     margin-left: -30px;
     width: 100px;
     height: 80px;
