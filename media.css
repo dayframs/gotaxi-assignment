@@ -11,25 +11,13 @@ header button {
 }
 .section1 div {
     min-height: 50vh;
-    background-size: cover;}   
-@keyframes hero {
-    0%{
-        background-size: contain;
-    }
-    33%{
-        background-size: contain;
-    }
-    66%{
-        background-size: contain;
-    }
-    100%{
-        background-size: contain;
-    }
-}
+    background-size: contain;
+    animation-name: hero;
+    animation-duration: 3s;}   
 .section2 {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin-top: -80px;
+    margin-top: -10px;
     padding-left: 10px;
     padding-right: 10px;
 }
