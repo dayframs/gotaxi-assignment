@@ -11,7 +11,7 @@ header button {
 }
 .section1 div {
     min-height: 50vh;
-    background-size: contain;
+    background-size: cover;
     animation-name: hero;
     animation-duration: 3s;}   
 .section2 {
