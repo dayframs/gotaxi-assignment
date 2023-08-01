@@ -1,4 +1,4 @@
-@media (max-width: 550px) 
+@media (max-width: 600px) 
 {
     /* header {
     display: flex;
@@ -116,7 +116,7 @@ column-gap: 1px;
     padding-right: 50px;
 }
 }
-@media (min-width: 551px) and (max-width: 999px) 
+@media (min-width: 601px) and (max-width: 999px) 
  {
     .section2 {
     display: grid;
