@@ -477,6 +477,7 @@ section {
     background-size: contain;
     position: relative;
     z-index: 3;
+    overflow: hidden;
 }
 .section6 img {
     width: 200px;
