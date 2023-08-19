@@ -69,23 +69,16 @@ section {
 }
 .section2 {
     background-color:rgba(255, 255, 255, 0.886);
-    /* min-height: 200px; */
     display: grid;
     grid-template-columns: 1fr 3fr;
     column-gap: 20px;
 }
 .div1a img {
     width: 100%;
-    /* max-width: 380px;
-    /* float: right; */
-    /* margin: 30px;
-    /* margin-top: 30px;
-    padding: */ 
     margin-top: 30px;
     margin-left: 20px;
 }
 .section2 .div1b {
-    /* width: 61%; */
     padding: 10px 40px 60px 15px;
 }
 .div1b h1 {
@@ -409,7 +402,6 @@ section {
     animation-direction: forward;
     animation-timing-function: ease-in-out;
     transition: animation 0.15s;
-    /* animation-delay: 20s; */
 }
 @keyframes key2 {
     0% {
@@ -429,7 +421,6 @@ section {
     animation-direction: forward;
     animation-timing-function: ease-in-out;
     transition: animation 0.15s;
-    /* animation-delay: 20s; */
 }
 @keyframes key3 {
     0% {
@@ -476,6 +467,7 @@ section {
     background-repeat: repeat-x;
     background-size: contain;
     position: relative;
+    overflow: hidden;
     z-index: 3;
 }
 .section6 img {
@@ -486,10 +478,7 @@ section {
     overflow: hidden;
     top: 50px;
     transform: scaleX(10%);
-    /* transform: scaleY(60%); */
     margin-left: 0px;
-    /* left: 600px; */
-    /* width: 100%; */
     animation-name: translator;
     animation-duration: 4s;
     animation-timing-function:linear;
@@ -514,8 +503,6 @@ section {
     margin-left: -30px;
     width: 100px;
     height: 80px;
-    /* left: 600px; */
-    /* width: 100%; */
     animation-name: translator;
     animation-duration: 2s;
     animation-timing-function: ease-in;
@@ -549,8 +536,6 @@ footer {
 }
 .footeraib {
     display: flex;
-    
-    /* align-items: center; */
     justify-content: space-around;
     width: 75%;
     margin: 1px auto;

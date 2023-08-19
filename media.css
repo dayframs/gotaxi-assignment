@@ -1,9 +1,5 @@
 @media (max-width: 600px) 
 {
-    /* header {
-    display: flex;
-    justify-content: center;
-} */
 header button {
     font-size: 12px;
     padding: 8px 12px;
@@ -28,8 +24,10 @@ header button {
     margin-left: 2px;
 }
 .section2 .div1b {
-    /* width: 61%; */
     padding: 10px 10px 30px 15px;
+}
+.section4 h2 {
+    text-align: right;
 }
 .section5 {
     flex-direction: column;
@@ -134,18 +132,4 @@ column-gap: 1px;
     .section1 div {
     min-height: 50vh;
     background-size: cover;}   
-/* @keyframes hero {
-    0%{
-        background-size: contain;
-    }
-    33%{
-        background-size: contain;
-    }
-    66%{
-        background-size: contain;
-    }
-    100%{
-        background-size: contain;
-    }
-} */
 }
